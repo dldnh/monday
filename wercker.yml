@@ -13,3 +13,19 @@ build:
       name: Build
       code: |
         echo "Hello, world!"
+
+dev:
+  steps:
+    - script:
+      name: Build
+      code: |
+        echo "Hello, world!"
+    - internal/shell
+
+hi-again:
+  steps:
+    - script:
+      name: Hi
+      code: |
+        echo "Hi again!"
+
