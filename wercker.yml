@@ -28,4 +28,3 @@ hi-again:
       name: Hi
       code: |
         echo "Hi again!"
-
