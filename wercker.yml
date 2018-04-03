@@ -1,10 +1,6 @@
 # from mark's first wercker how-to session
 
-box:
-  id: store/oracle/serverjre
-  username: $DOCKER_USERNAME
-  password: $DOCKER_PASSWORD
-  tag: 8
+box: alpine
 
 # this pipeline does not really do anything
 build:
